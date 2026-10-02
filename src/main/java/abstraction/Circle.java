@@ -4,7 +4,7 @@ import implementor.Renderer;
 
 public class Circle extends Shape{
 
-    private double radius;
+    private final double radius;
 
     public Circle(Renderer renderer, double radius) {
         super(renderer);
